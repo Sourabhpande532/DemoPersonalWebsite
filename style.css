@@ -1,0 +1,159 @@
+body {
+  color: #40514e;
+  margin: 0px;
+  font-size: 1em;
+}
+.abc {
+  font-size: 1.25em;
+  color: #66bfbf;
+  font-weight: normal;
+}
+/* in body margin property say all the four side is equal */
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Merriweather", serif;
+  font-family: "Sassy Frass", cursive;
+  font-family: "Yuji Mai", serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  line-height: 2;
+  /* r is essentional why because its root cause no impact on body fonts men parent element */
+  /* 2.5em mens40px   */
+  /* how to calculate % 100%-16px then
+                  ?%(562.5)   -90px thats a way of calculating %
+  how to calculate em 90/16=562.5 that a way of calculating em    16%mens100%                  */
+  /* width: 15%;
+  margin: 0 auto 0 auto;  */
+}
+/* Auto property use in margin like top-0,right-auto,bottom-0, left-auto to be centeries the element  */
+.top-container {
+  background-color: B1FFFD;
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+}
+/*  parent container work like a body of html wherever you put value either body or parent the result will be same
+
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  /* padding: 20px; */
+.middle-container {
+  text-align: center;
+  margin: 10px auto;
+}
+.digu {
+  color: antiquewhite;padding: 20px 0;
+}
+hr {
+  border: dotted #486363 9px;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+  /* no need of . here because its html */
+}
+h2 {
+  color: #3ec7c7;
+  font-family: monospace;
+  padding-bottom: 25px;
+}
+
+.sau-img {
+  width: 26%;
+  margin: 50px auto;
+}
+h3 {
+  color: #66bfbf;
+}
+.intro {
+  width: 60%;
+  margin: auto;
+  line-height: 2;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 90px;
+  bottom: 300px;
+  top: 190px;
+  /* from container of bottom position thats why bottom px so high */
+}
+.top-cloud {
+  position: absolute;
+  right: 50px;
+  top: 60px;
+}
+/* from container of top position thats why top px so low */
+.skill-row {
+  width: 70%;
+  margin: 55px auto 58px auto;
+  padding-top: 30px;
+  text-align: left;
+  line-height: 1;
+}
+.typing {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 15px;
+}
+.massage {
+  width: 40%;
+  margin: 40px auto 50px;
+}
+a {
+  color: #11999e;
+  font-family: "Merriweather", serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: ghostwhite;
+}
+.right {
+  width: 30%;
+  float: right;
+  margin: 40px;
+}
+/* .clear{
+  clear: left;
+}
+ by using clear property we can move the paragraph where you want  
+.clear-2{
+  clear: right;
+} */
+.btn {
+  background: #3498db;
+  line-height: 5;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 18px 17px 20px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {color:blanchedalmond;
+  background: goldenrod;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.touch{
+  margin: 40px auto 55px;
+}
