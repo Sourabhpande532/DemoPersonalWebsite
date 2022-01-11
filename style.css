@@ -82,8 +82,9 @@ h2 {
 }
 
 .sau-img {
-  width: 26%;
+  width: 50%;
   margin: 50px auto;
+  padding-top:85px;
 }
 h3 {
   color: #66bfbf;
