@@ -50,7 +50,9 @@ h1 {
     
   .bottom-cloud {
    position: static;
-   padding-right: 83%;}
+   padding-right: 83%;
+   visibility: hidden;
+  }
 
   }
 
