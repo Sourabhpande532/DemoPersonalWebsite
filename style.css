@@ -43,6 +43,20 @@ h1 {
   margin: 10px auto;
 }
 
+@media (max-width:650px){
+    .bottom-mountain{
+      width: 75%;
+    }
+    
+  .bottom-cloud {
+   position: static;
+   padding-right: 83%;}
+
+  }
+
+
+
+
 .digu {
   color: antiquewhite;padding: 20px 0;
 }
